@@ -7,6 +7,7 @@ module.exports = {
         primary: '#399F2E',
         secondary: "#FFF4ED",
         tertiary: '#3D3D3D',
+        darkgreen: '#083902'
 
       }
     },
@@ -20,6 +21,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('tailwind-scrollbar')
   ],
 }
 

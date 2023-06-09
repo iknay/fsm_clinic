@@ -7,3 +7,9 @@
 :root {
     --font-family: 'Poppins', sans-serif;
 }
+
+@layer components {
+    .headerlinks{
+        @apply pl-10 flex cursor-pointer hover:text-primary hover:duration-500 font-medium text-[20px]
+    }
+}
