@@ -20,7 +20,7 @@ const Pediatrics = ({ directionLeft }: Props) => {
         whileInView={{ opacity: 1, x: 0 }}
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 1.1 }}
-        className="flex md:w-[220px] md:h-[180px] xl:w-[280px] xl:h-[230px] w-[200px] h-[150px]"
+        className="flex md:w-[220px] md:h-[180px] xl:w-[270px] xl:h-[220px] w-[150px] h-[90px]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
