@@ -5,7 +5,7 @@ import Aboutusimg from '../assets/aboutus.png';
 
 const About = () => {
   return (
-    <div className='h-screen'>
+    <div className='min-h-screen'>
       
       <div className='hidden md:flex'>
         <div className='absolute -mt-60'>
@@ -17,8 +17,8 @@ const About = () => {
       </div>
 
       <div className='container flex flex-col items-center justify-between max-w-full' id='about'>
-        <h1 className='font-bold md:text-[48px] text-[32px] mb-12 pt-0 md:pt-8'>About us</h1>
-        <div className='items-start justify-between space-y-10 md:space-y-0 md:flex'>
+        <h1 className='font-bold text-tertiary md:text-[48px] text-[24px] mb-4 pt-0 md:pt-8'>About us</h1>
+        <div className='items-start justify-between pt-4 space-y-10 md:space-y-0 md:flex'>
           <div className='pr-0 md:pr-[80px]'>
             <p className='text-[#88C582] text-[12px] md:text-[16px] font-bold'>WELCOME TO FIRSTSTEP MULTISPECIALTY CLINIC</p>
             <h1 className='text-primary text-[32px] md:text-[48px] font-bold'>Your Gateway to Health and Vitality</h1>

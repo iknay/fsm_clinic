@@ -4,14 +4,18 @@ import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Services from "./components/services";
 import About from "./components/about";
+import Testimonials from "./components/testimonials";
+import Appointment from "./components/appointment";
 
 const App = () => {
     return (
         <div className="App h-screen overflow-x-hidden overflow-y-scroll bg-secondary
-        scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#399F2E]/80 relative">
+        scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#399F2E]/80 relative ">
             <Header/>
             <Services/>
             <About/>
+            <Testimonials/>
+            <Appointment/>
         </div>
     )
 }
