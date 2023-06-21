@@ -1,0 +1,13 @@
+.bg-image {
+    background-image: url('/src/assets/Servicesbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.footerbg-image {
+    background-image: url('/src/assets/footerimg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Servicesbg from '../assets/Servicesbg.png';
-import './servicesbg.css';
+import './bg.css';
 import Pediatrics from '../cards/pediatrics';
 import InternalMed from '../cards/internalmed';
 import Gyne from '../cards/gyne';
