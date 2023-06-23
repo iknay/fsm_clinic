@@ -6,12 +6,17 @@ import gmail from '../assets/gmail.png';
 import facebook from '../assets/facebook.png';
 import web from '../assets/website.png';
 import contact from '../assets/contact.png';
+import {motion} from 'framer-motion';
 
 import './bg.css';
 
 const Footer = () => {
   return (
-    <div className='w-full h-fit'>
+    <motion.div 
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    transition={{duration:1.5}}
+    className='w-full h-fit'>
       <div className='flex flex-col items-center justify-center'>
         <div className='flex'>
           <img src={Logo} alt='logo' className='w-10 h-10 mt-3 md:w-20 md:h-20'/>
@@ -30,12 +35,8 @@ const Footer = () => {
             <button><img src={contact} alt='contact'/></button>
         </div>
       </div>
-      <div className='flex items-end justify-between w-full'>
-          <p className='text-secondary md:text-[12px] text-[10px]'>© 2023 All Rights Reserved</p>
-          <button><a href='#home'><img src={arrow} alt='arrow' className='md:w-[40px] md:h-[40px] w-5 h-5'/></a></button>
-      </div>
       <img src={footerimg} className='absolute flex items-end justify-end w-full'/>
-    </div>
+    </motion.div>
     
   )
 }

@@ -1,9 +1,14 @@
 import React from 'react';
 import schedule from '../assets/schedule.png';
+import {motion} from 'framer-motion';
 
 const Appointment = () => {
   return (
-    <div className='container flex flex-col items-center max-w-full min-h-screen space-y-10 md:space-x-10 md:flex-row md:space-y-0' id='appointment'>
+    <motion.div 
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    transition={{duration:1.5}}
+    className='container flex flex-col items-center max-w-full min-h-screen space-y-10 md:space-x-10 md:flex-row md:space-y-0' id='appointment'>
         <div className='flex flex-col'>
             <h1 className='text-tertiary font-bold lg:text-[48px] md:text-[32px] text-[24px] text-center'>Make appointment</h1>
             <p className='text-primary lg:text-[24px] md:text-[18px] text-[16px] text-center'>Leave your contacts and we will message or call you back for confirmation</p>
@@ -54,7 +59,7 @@ const Appointment = () => {
         <div>
             <img src={schedule}/>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
