@@ -7,7 +7,7 @@ import carlo from '../assets/carlo.jpg';
 
 const Testimonials = () => {
   return (
-    <div className='container max-w-full min-h-screen mb-4 space-y-8 md:space-y-28 md:mb-0'>
+    <div className='container max-w-full min-h-screen mb-4 space-y-8 md:space-y-28 md:mb-0' id='testimonials'>
         <div className='flex flex-col items-center font-bold md:text-[48px] text-[24px] p-0'>
             <h1 className='text-tertiary'>Testimonials</h1>
             <p className='text-primary'>from our satisfied clients</p>

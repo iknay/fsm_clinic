@@ -6,7 +6,7 @@ import Navbar from './navbar';
 
 const Header = () => {
   return (
-    <div className='min-h-screen mt-4 md:min-h-screen' id='home'>
+    <div className='min-h-screen pt-6 md:min-h-screen' id='home'>
       <Navbar/>
         <motion.div 
         initial={{opacity:0}}
