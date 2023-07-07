@@ -7,10 +7,11 @@ import Logo from '../assets/Logo.png'
 
 const Menu = () => (
     <>
-    <ul className='flex flex-col text-lg md:flex-row text-tertiary'>
+    <ul className='flex flex-col text-sm md:flex-row text-tertiary'>
       <li className='headerlinks'><a href='#home'>Home</a></li>
       <li className='headerlinks'><a href='#services'>Services</a></li>
       <li className='headerlinks'><a href='#about'>About</a></li>
+      <li className='headerlinks'><a href='#testimonials'>Testimonials</a></li>
       <li className='headerlinks'><a href='#contact'>Contact</a></li>
     </ul> 
     </>
